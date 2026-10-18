@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibility Statement - Martin Berrisford</title>
+    <meta
+      name="description"
+      content="Read the accessibility statement for Martin Berrisford's website."
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <p class="brand">Martin Berrisford - Accessibility Specialist</p>
+        <nav aria-label="Main">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#about">About Me</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li>
+              <a href="accessibility-statement.html" aria-current="page"
+                >Accessibility Statement</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section>
+        <div class="container">
+          <h1>Accessibility Statement</h1>
+          <p>
+            I want this website to be usable by as many people as possible,
+            including people with disabilities. I aim to make the site conform
+            to the Web Content Accessibility Guidelines (WCAG) 2.2 Level AA and
+            beyond.
+          </p>
+          <p>
+            This site has been designed with accessibility in mind, and has
+            undergone testing to ensure it meets accessibility standards and
+            best practices.
+          </p>
+
+          <h2>Feedback and assistance</h2>
+          <p>
+            If you encounter an accessibility barrier please
+            <a
+              href="https://www.linkedin.com/in/martin-berrisford-5a77aa8/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >message me on LinkedIn</a
+            >. Please describe the page and the issue you encountered so I can
+            work to address it.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          &copy; <span id="current-year"></span> - Martin Berrisford -
+          1001694988 Ontario Inc.
+        </p>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
